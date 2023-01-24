@@ -12,9 +12,9 @@ function App() {
       year: '2020', 
       tracks: ['Cardigan', 'August', 'Mirrorball']
     },{
-      name: 'Red (Taylors Version', 
+      name: 'Red (Taylors Version)', 
       year: '2021', 
-      tracks: ['Red (Taylors Version)', 'Holy Ground (Taylors Version) ', 'I Knew You Were Trouble (Taylors Version']
+      tracks: ['Red (Taylors Version)', 'Holy Ground (Taylors Version) ', 'I Knew You Were Trouble (Taylors Version)']
     }
   ]
   return (
