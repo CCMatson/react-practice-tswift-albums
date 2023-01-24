@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import AlbumList from './AlbumList';
 
 function App() {
+  const albums = [
+    {
+      name: 'Midnights', 
+      year: '2022',  
+      tracks: ['Maroon', 'Anti-Hero', 'Bejeweled']
+    },{
+      name: 'Folklore', 
+      year: '2020', 
+      tracks: ['Cardigan', 'August', 'Mirrorball']
+    },{
+      name: 'Red (Taylors Version', 
+      year: '2021', 
+      tracks: ['Red (Taylors Version)', 'Holy Ground (Taylors Version) ', 'I Knew You Were Trouble (Taylors Version']
+    }
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AlbumList albums={albums}/>
     </div>
-  );
+  )
 }
 
 export default App;
