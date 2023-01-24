@@ -3,7 +3,7 @@ const Track = (props) => {
 <>
 <div>
   <h4>
-    A hit off {props.albumName} is {props.track}
+    A hit track off {props.albumName} is {props.track}
   </h4>
 </div>
 </>
